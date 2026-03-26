@@ -15,8 +15,8 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.title("Traductor Manuela´s App")
+st.subheader("Escucharé lo que quieras traducir")
 
 
 image = Image.open('OIG7.jpg')
