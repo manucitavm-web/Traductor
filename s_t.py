@@ -15,15 +15,15 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("Traductor Manuela´s App")
-st.subheader("Escucharé lo que quieres traducir.")
+st.title("TRADUCTOR.")
+st.subheader("Escucho lo que quieres traducir.")
 
 
 image = Image.open('OIG7.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
-    st.subheader("traductor.")
+    st.subheader("Traductor.")
     st.write("Presiona el botón, cuando escuches la señal "
                  "habla lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites.")
