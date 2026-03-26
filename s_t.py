@@ -19,7 +19,7 @@ st.title("Traductor Manuela´s App")
 st.subheader("Escucharé lo que quieras traducir")
 
 
-image = Image.open('Traductorimagen.jpg')
+image = Image.open('Traductorimagen.png')
 
 st.image(image,width=300)
 with st.sidebar:
